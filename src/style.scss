@@ -1,0 +1,101 @@
+body, html {
+  overflow-x: visible;;
+  background-color: rgb(197, 191, 191);
+}
+
+.app-header {
+  display: inline-block;
+  padding: 50px;
+}
+
+.app-title {
+  display:inline-block;
+  width: 100%;
+  margin: 280px 0 0 0;
+  float:center;
+  position:relative;
+  color:rgb(234, 236, 235);
+  
+  @media(min-width:800px) {
+    width: 80%;
+    margin: 25px 0 0 0;
+  }
+  
+  h1 {
+    font-size: 60px;
+    color:black;
+  font-style: Bold;
+  
+    margin: 3;
+  }
+  
+  p {
+    font-size: 35px;;
+    color: brown;
+  }
+  
+}
+
+.app-title-content {
+  display:inline-block;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  width:100%;
+  text-align:center;
+  transform:translate(-50%, -50%);
+  
+  @media(min-width:768px) {
+    width:auto;
+    position:absolute;
+    text-align:center;
+  }
+}
+.card {
+  width:300px;
+  height: 460px;
+  display: grid;
+  margin: 90px 430px;
+  transition: .15s;
+  
+  &:hover {
+    box-shadow: 10px 5px 40px 20px darken(#908f94, 10%);
+    cursor: pointer;
+}
+}
+
+.card-header {
+
+  height: 160px;
+  width: 300px;
+  padding: 16px;
+  width:100%;
+  background-size:cover;
+  color:#fff;
+}
+
+.card-header--title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-body {
+  padding: 16px;
+  background-color:#fff;
+  width:100%;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(27, 23, 231);
+}
+
+.body-content {
+  padding-bottom: 80px;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+  line-height: 1.8;
+}
+
+
